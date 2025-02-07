@@ -93,7 +93,7 @@ def predit_consumption():
     st.dataframe(df)
 
     # Ensure the DataFrame columns match the order and names expected by the model
-    feature_columns = ['TemperatureC', 'Dew PointC', 'Humidity', 'Sea Level PressurehPa', 'WindDirDegrees']
+    feature_columns = ['TemperatureC', 'Dew PointC', 'Humidity', 'Sea Level PressurehPa', 'VisibilityKm', 'WindDirDegrees']
     X_input = df[feature_columns]
 
     # Convert the DataFrame to a DMatrix
