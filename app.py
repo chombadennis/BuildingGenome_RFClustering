@@ -1,6 +1,6 @@
 import streamlit as st
 from predict_page import predict_comfort
-from predict_consumption_level import predit_consumption
+from predict_consumption_level import predict_consumption
 
 
 
@@ -23,4 +23,4 @@ page = st.sidebar.selectbox("Select a Page", ("Predict", "Explore"))
 if page == "Predict":
     predict_comfort()
 elif page == "Explore":
-    predit_consumption()
+    predict_consumption()

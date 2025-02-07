@@ -33,7 +33,7 @@ def calculate_dewpoint(tempC, humidity):
     dew_point = (b * alpha) / (a - alpha)
     return dew_point
 
-def predit_consumption():
+def predict_consumption():
     st.header("Prediction of Thermal Sensation (Comfort)")
     st.write("""
         Predicting building energy consumption is key to boosting efficiency and environmental sustainability.
