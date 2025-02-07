@@ -1,0 +1,9 @@
+scikit-learn
+pandas
+numpy
+matplotlib
+datetime
+scipy
+seaborn
+streamlit
+xgboost
