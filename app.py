@@ -18,9 +18,9 @@ st.write(
 )
 
 # Sidebar for navigation
-page = st.sidebar.selectbox("Select a Page", ("Predict", "Explore"))
+page = st.sidebar.selectbox("Select a Page", ("Thermal Comfort", "Energy Consumption Level"))
 
-if page == "Predict":
+if page == "Thermal Comfort":
     predict_comfort()
-elif page == "Explore":
+elif page == "Energy Consumption Level":
     predict_consumption()

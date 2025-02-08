@@ -34,7 +34,7 @@ def calculate_dewpoint(tempC, humidity):
     return dew_point
 
 def predict_consumption():
-    st.header("Prediction of Thermal Sensation (Comfort)")
+    st.header("Prediction of Energy Consumption Level (High or Low)")
     st.write("""
         Predicting building energy consumption is key to boosting efficiency and environmental sustainability.
         Datasets used are the ASHRAE Great Energy Predictor III (3 years of hourly readings from over 1,000 
